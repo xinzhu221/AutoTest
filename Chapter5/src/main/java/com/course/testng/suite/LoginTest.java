@@ -1,6 +1,10 @@
 package com.course.testng.suite;
 
-public class LoginSuccess {
+import org.testng.annotations.Test;
 
-    public void login
+public class LoginTest {
+    @Test
+    public void loginTaobao(){
+        System.out.println("淘宝登录成功");
+    }
 }
