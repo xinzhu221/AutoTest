@@ -1,0 +1,32 @@
+[
+  {
+    "description":"重定向测试到百度首页",
+    "request":{
+      "uri":"/redirect",
+      "method":"get"
+    },
+    "redirectTo":"http://www.baidu.com"
+  },
+  {
+    "description": "重定向我们自己的首页",
+    "request":{
+      "uri":"/redirect/page",
+      "method":"get"
+    },
+    "redirectTo":"/redirect/ourpage"
+  },
+  {
+    "description":"我们的首页",
+    "request":{
+      "uri":"/redirect/ourpage",
+      "method":"get"
+    },
+    "response":{
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      },
+      "text":"重定向成功"
+    }
+  }
+
+]
