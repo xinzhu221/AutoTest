@@ -1,0 +1,15 @@
+[
+  {
+    "description":"测试post请求，不带参数",
+    "request":{
+      "uri":"/postdemo",
+      "method":"post"
+    },
+    "response":{
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      },
+      "text":"不带参数的post请求的响应"
+    }
+  }
+]
