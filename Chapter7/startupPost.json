@@ -11,5 +11,22 @@
       },
       "text":"不带参数的post请求的响应"
     }
+  },
+  {
+    "description":"测试post请求，带参数",
+    "request":{
+      "uri":"/postwithparam",
+      "method":"post",
+      "forms":{
+        "name":"ke",
+        "age":"18"
+      }
+    },
+    "response":{
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      },
+      "text":"ke回来啦"
+    }
   }
 ]
