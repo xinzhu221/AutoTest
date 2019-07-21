@@ -43,6 +43,25 @@
         "status":1
       }
     }
+  },
+  {
+    "description": "测试post请求，带headers",
+    "request":{
+      "uri":"/post/with/headers",
+      "method":"post",
+      "headers":{
+        "Content-Type":"application/json"
+      },
+      "json":{
+        "name":"ke",
+        "age":"18"
+      }
+    },
+    "response":{
+      "json":{
+        "ke":"success",
+        "status":1
+      }
+    }
   }
-
 ]
