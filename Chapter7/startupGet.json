@@ -6,9 +6,6 @@
       "method":"get"
     },
     "response":{
-      "headers":{
-        "Content-Type":"text/html;charset=gbk"
-      },
       "text":"这是一个没有参数的get请求"
     }
   },
@@ -23,9 +20,6 @@
       }
     },
     "response":{
-      "headers":{
-        "Content-Type":"text/html;charset=gbk"
-      },
       "text":"kk回来啦"
     }
   },
@@ -39,9 +33,6 @@
       }
     },
     "response":{
-      "headers":{
-        "Content-Type":"text/html;charset=gbk"
-      },
       "text":"带cookies的get请求的响应结果"
     }
   }
