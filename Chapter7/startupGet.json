@@ -28,5 +28,21 @@
       },
       "text":"kk回来啦"
     }
+  },
+  {
+    "description":"带cookie的get请求",
+    "request":{
+      "uri":"/get/with/cookies",
+      "method":"get",
+      "cookies":{
+        "login":"true"
+      }
+    },
+    "response":{
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      },
+      "text":"带cookies的get请求的响应结果"
+    }
   }
 ]
