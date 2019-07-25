@@ -33,6 +33,9 @@
       }
     },
     "response":{
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      },
       "text":"带cookies的get请求的响应结果"
     }
   },
