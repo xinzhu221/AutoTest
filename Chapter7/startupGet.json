@@ -35,5 +35,22 @@
     "response":{
       "text":"带cookies的get请求的响应结果"
     }
+  },
+  {
+    "description":"返回cookies信息的请求",
+    "request":{
+      "uri":"/getCookies",
+      "method":"get"
+    },
+    "response":{
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      },
+      "cookies":{
+        "login":"true"
+      },
+      "text":"恭喜你获得cookies信息成功"
+    }
   }
+
 ]
