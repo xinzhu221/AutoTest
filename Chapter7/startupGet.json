@@ -54,6 +54,26 @@
       },
       "text":"恭喜你获得cookies信息成功"
     }
+  },
+  {
+    "description":"测试post请求，带cookie",
+    "request":{
+      "uri":"/post/with/cookie",
+      "method":"post",
+      "cookies":{
+        "login":"true"
+      },
+      "json":{
+        "name":"ke",
+        "age":"18"
+      }
+    },
+    "response":{
+      "status":"200",
+      "json":{
+        "ke":"success",
+        "status":"1"
+      }
+    }
   }
-
 ]
